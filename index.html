@@ -154,13 +154,6 @@
             box-shadow: 0 30px 60px rgba(255, 107, 53, 0.4);
         }
 
-        .hero-image::after {
-            content: '🍜';
-            font-size: 8rem;
-            position: absolute;
-            animation: pulse 2s infinite;
-        }
-
         @keyframes pulse {
             0%, 100% { transform: scale(1); }
             50% { transform: scale(1.1); }
@@ -263,18 +256,7 @@
             position: relative;
         }
 
-        .serving-info::before {
-            content: '👥';
-            position: absolute;
-            top: -15px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 2rem;
-            background: var(--white);
-            padding: 10px;
-            border-radius: 50%;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
+        
 
         .serving-info strong {
             color: var(--primary-orange);
@@ -609,11 +591,13 @@
     <div class="container">
         <header>
             <h1>Resep Kwetiau Goreng Anti Ribet & Enak</h1>
-            <p class="subtitle">Hidangan Asia yang autentik dengan cita rasa istimewa</p>
+            <p class="subtitle">Kelompok : Panggih, Fabian, Syakir, Faith, Akmal</p>
         </header>
 
         <div class="hero-section">
-            <div class="hero-image"></div>
+            <div class="hero-image">
+    <img src="Kwetiau_Goreng_Seafood.jpg" alt="Kwetiau Goreng" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;">
+</div>
             <div class="hero-content">
                 <h2>Kwetiau Goreng Premium</h2>
                 <p>Rasakan kelezatan kwetiau goreng dengan teknik memasak yang tepat dan bumbu yang pas. Resep ini telah teruji dan disukai banyak orang.</p>
